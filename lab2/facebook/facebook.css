@@ -1,0 +1,153 @@
+body{
+    background: #f0f2f5;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 60%;
+    margin: 200px 400px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+hr{
+    margin-top: 20px;
+}
+.leftpart{
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+p{
+    margin-top: 5px;
+}
+
+img{
+    margin-left: 3px;
+    width: 180px;
+}
+
+h3{
+    color:black;
+    font-size: 20px;
+}
+
+.Rightpart{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #fff;
+    width:450px;
+    height:370px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+form input, button{
+    width: 380px;
+    height:50px;
+    margin:10px 0px;
+    padding:0px 10px ;
+    outline:none;
+    border:1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+form button{
+    background-color: royalblue;
+    color:white;
+}
+.createaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:green;
+    width:250px;
+    height:50px;
+    font-size:18px;
+    color:white;
+    border-radius: 15px;
+}
+span{   
+    display: flex;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 20px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.createaccount{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.abc{
+    padding-right: 5px;
+}
+
+.foot{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: row;
+
+}
+
+.footmain{
+    width: 65%;
+    height: 100%;
+}
+
+.lang li{
+    display: inline-block;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    font-size: 12px;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+li button{
+    width: 30px;
+    height: 20px;
+    padding: 0 7px;
+    font-size: 15px;
+}
+
+.other{
+    width: 100%;
+}
+
+.other li{
+    display: inline-block;
+}
+
+.copyright{
+    font-size: 12px;
+}

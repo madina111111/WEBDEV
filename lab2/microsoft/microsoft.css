@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+ul {
+    list-style-type: none;
+}
+
+div{
+    display: block;
+}
+  
+html {
+    font-size: 70%;
+}
+  
+body {
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #fafafa;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px !important;
+    height: 54px;
+    padding: 0 5%;
+}
+
+.logo{
+    width: 108px;
+}
+
+.list{
+    display: flex;
+}
+
+.list li{
+    padding: 15px;
+}
+
+
+.lx li{
+    display: flex;
+    align-items: center;
+}
+
+
+.rx li{
+    display: flex;
+    align-items: center;
+}
+
+#Path_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+}
+.Path_1 {
+	overflow: visible;
+	width: 9.255px;
+	height: 5.715px;
+    margin-left: 3px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    background-image: url('assets/background-main.avif');
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 480px;
+    background-position: 0px 0;
+    background-size: cover;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.right .text{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.right button{
+    font-weight: 600;
+    border: 0.125rem solid transparent;
+    border-radius: 1.5px;
+    padding: 8px 19px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.f{
+    background: #0067b8;
+    color: white;
+}
+
+.s{
+    background: none;
+}
+
+.unda{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.profile{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.poiskk{
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    padding-top: 50px;
+}
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 5%;
+}
+
+.card{
+    width: 370px;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+.card h1{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.txt{
+    padding-bottom: 20px;
+}
+
+.link a{
+    color: #0067b8;
+    font-weight: 500;
+}
+
+.firstt a{
+    padding-right: 40px;
+}
