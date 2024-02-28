@@ -1,0 +1,32 @@
+.picture {
+    width: 500px;
+    height: 300px;
+}
+
+.picture img {
+    width: 500px;
+    height: 80%;
+    object-fit: contain;
+}
+/* 
+.products {
+    width: 30%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+select {
+    width: 100%;
+}
+
+.list-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

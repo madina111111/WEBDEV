@@ -1,0 +1,13 @@
+<h2>Products</h2>
+<select (change) = "changeFilter($any($event).target.value)">
+    <option value = "None"> All </option>
+    <option value = "Smartphone"> Phone</option>
+    <option value = "Headphones"> Headphones</option>
+    <option value="Smart-Watch"> Smart-Watch</option>
+    <option value="Laptop"> Laptop</option>
+</select>
+<div class="list-block">
+    <div *ngFor="let item of filteredItems">
+        <app-product-item [item]="item" (remove)="onDeleteItem($event)"></app-product-item>
+    </div>
+</div>

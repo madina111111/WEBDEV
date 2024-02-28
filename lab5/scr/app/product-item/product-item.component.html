@@ -1,0 +1,46 @@
+
+
+<div class = "list-block">
+    <h3>
+        <a [title] = "item.name + ' details'"
+        [routerLink]="['/products', item.id]">>
+          {{ item.name }}
+        </a>
+      
+    </h3>
+
+    <div class="picture">
+      <img [src] = item.image>
+    </div>
+
+    <p *ngIf="item.description">
+      Description: {{ item.description }}
+    </p>
+
+    <p *ngIf="item.rating">
+      rating: {{ item.rating }}
+    </p>
+
+    <button type="button" (click)="share(item.link)">
+      Share
+    </button>
+    <button class="remove" (click)="deleteItem()">
+        Delete
+    </button>
+    <button type="button" (click)="likeUp(item.id)" class = "like-button">
+      <i class="fa-solid fa-heart fa-xl" style="margin-right: 5px;"></i>
+      {{this.like}}
+    </button>
+
+    <app-product-alerts
+  [product]="item" 
+  (notify)="onNotify()">
+</app-product-alerts>
+
+</div>
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
