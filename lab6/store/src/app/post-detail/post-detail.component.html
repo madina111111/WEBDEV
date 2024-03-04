@@ -1,0 +1,25 @@
+
+<div *ngIf="loaded">
+    <h1>Post detail #{{post.id}}</h1>
+  
+    <h2>{{post.title}}</h2>
+    <fieldset>
+        <input type="text" placeholder="Enter new title name" [(ngModel)]="newTitle"><br/>
+        <button (click)="saveTitle()">Save</button>
+    </fieldset>
+
+    <a routerLink="/posts">
+        <button>Return Back</button>
+    </a>
+    <br>
+    <br>
+
+    <a routerLink="/posts/{{post.id}}/photos">
+        {{post.id}}) {{post.title}}
+    </a>
+
+    
+  
+  </div>
+  
+  <h3 *ngIf="!loaded">Post is loading...</h3>
