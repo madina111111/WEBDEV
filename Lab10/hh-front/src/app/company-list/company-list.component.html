@@ -1,0 +1,18 @@
+<!-- <p>company-list works!</p> -->
+
+
+<h2>Companies</h2>
+
+<ul>
+  <li style="list-style: none;" *ngFor="let company of companies" (click)="selectCompany(company)">
+    <button (click)="onClickAng(company.id)">{{ company.name }}</button>
+    {{company.id}}
+  </li>
+</ul>
+
+<h2>Vacancies</h2>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{ vacancy.name }}{{vacancy.description}}
+  </li>
+</ul>

@@ -1,9 +1,8 @@
 from django.shortcuts import render
-
-# Create your views here.
 from django.http import JsonResponse
 from django.shortcuts import get_object_or_404
 from .models import Category, Product
+
 
 def get_all_products(request):
     products = Product.objects.all()
